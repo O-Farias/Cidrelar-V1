@@ -2,6 +2,7 @@ import React from "react";
 import MainProduct from "./components/MainProduct";
 import NavBar from "./components/NavBar";
 import "./index.css";
+import AboutUs from "./components/AboutUs";
 
 function App() {
   const productInfo = {
@@ -14,6 +15,7 @@ function App() {
     <div>
       <NavBar />
       <MainProduct {...productInfo} />
+      <AboutUs />
     </div>
   );
 }
