@@ -1,0 +1,27 @@
+.footer {
+  background-color: transparent; /* Cor de fundo transparente */
+  color: black; /* Cor do texto */
+  padding: 1rem 0; /* Espaçamento interno */
+  text-align: center; /* Centralizar texto */
+}
+
+.footer a {
+  color: black; /* Cor dos links */
+  text-decoration: none; /* Remover sublinhado */
+}
+
+.footer a:hover {
+  text-decoration: underline; /* Adicionar sublinhado ao passar o mouse */
+}
+
+.icon-container {
+  margin-top: 1rem; /* Espaçamento acima do ícone */
+}
+
+.instagram-icon {
+  color: #e1306c; /* Cor do ícone do Instagram */
+}
+
+.instagram-link:hover .instagram-icon {
+  color: #c13584; /* Cor do ícone ao passar o mouse */
+}
