@@ -1,3 +1,7 @@
+# Cidrelar Landing Page
+
+Bem-vindo ao repositório da Landing Page da Cidrelar! Este projeto é uma aplicação web desenvolvida com React e Vite, utilizando Material-UI para os componentes de interface do usuário e Tailwind CSS para estilização.
+
 ## Dependências
 
 - `@emotion/react`
