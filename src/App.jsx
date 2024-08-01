@@ -3,6 +3,7 @@ import MainProduct from "./components/MainProduct";
 import NavBar from "./components/NavBar";
 import "./index.css";
 import AboutUs from "./components/AboutUs";
+import Footer from "./components/Footer";
 
 function App() {
   const productInfo = {
@@ -16,6 +17,7 @@ function App() {
       <NavBar />
       <MainProduct {...productInfo} />
       <AboutUs />
+      <Footer />
     </div>
   );
 }
